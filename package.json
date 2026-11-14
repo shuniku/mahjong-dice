@@ -1,0 +1,39 @@
+{
+  "name": "mahjong-dice",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "麻雀用サイコロ PWA",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "icons": "node scripts/generate-icons.mjs",
+    "font": "node scripts/subset-font.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.65.1",
+    "@types/node": "26.6.6",
+    "@vitest/coverage-v8": "5.1.0",
+    "eslint": "10.15.0",
+    "jsdom": "31.0.1",
+    "pngjs": "7.0.0",
+    "prettier": "3.10.1",
+    "subset-font": "2.9.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.72.2",
+    "vite": "8.3.8",
+    "vite-plugin-pwa": "2.0.0",
+    "vitest": "5.1.0",
+    "workbox-build": "7.4.1",
+    "workbox-window": "7.4.1"
+  }
+}

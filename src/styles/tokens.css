@@ -1,0 +1,29 @@
+:root {
+  /* 色: 墨・朱・生成り・ラシャ（麻雀卓の緑） */
+  --color-sumi: #1c1a17;
+  --color-sumi-soft: #4a443b;
+  --color-shu: #c1272d;
+  --color-shu-pale: #fbeceb;
+  --color-kinari: #f3ecd9;
+  --color-kinari-deep: #e4d9b9;
+  --color-felt: #2f5d3f;
+  --color-felt-dark: #1f402b;
+  --color-kin: #b8903a;
+  --color-die: #fffdf7;
+  --color-line: #a89a6f;
+
+  /* 文字: 同梱の Noto Serif JP（サブセット）。読み込み中は端末の明朝体。 */
+  --font-mincho:
+    'Noto Serif JP Subset', 'Hiragino Mincho ProN', 'Yu Mincho', 'YuMincho', 'Noto Serif CJK JP',
+    serif;
+
+  --radius-panel: 16px;
+  --radius-button: 14px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+
+  --duration-roll: 0.7s;
+  --duration-slide: 0.3s;
+  --content-width: 480px;
+}
